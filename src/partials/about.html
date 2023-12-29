@@ -1,0 +1,62 @@
+<section class="about" id="made">
+  <div class="container">
+    <p class="about__subtitle">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__wrap">
+      <picture>
+        <source
+          srcset="
+            ./images/desktop-about-cow.png    1x,
+            ./images/desktop-about-cow@2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+
+        <source
+          srcset="
+            ./images/tablet-about-cow.png    1x,
+            ./images/tablet-about-cow@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/mobile-about-cow.png    1x,
+            ./images/mobile-about-cow@2x.png 2x
+          "
+        />
+
+        <img
+          class="about__image image"
+          src="./images/mobile-about-cow.png"
+          alt="cow"
+        />
+      </picture>
+      <div class="list__wrap">
+        <ul class="about__list list">
+          <li class="about__item">
+            <p class="about__description">
+              Ice is a place where you will become not only a little happier,
+              but also healthier. Health is the main value for us, and we follow
+              it when creating our handmade desserts.
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__text">
+              We use traditional recipes and 100% natural ingredients. Our
+              products are so natural that they can be given to children from
+              the age of three years. Sweets lovers can expect 55 types of ice
+              cream, 15 types of coffee and 23 milkshakes.
+            </p>
+          </li>
+        </ul>
+        <button class="about__button about-modal-open" type="button">
+          Read more
+          <svg class="about__icon" width="15" height="15">
+            <use href="./images/sprite.svg#icon-next"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

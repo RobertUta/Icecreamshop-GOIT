@@ -1,0 +1,204 @@
+<!-- geo modal -->
+
+<div class="backdrop-geo is-hidden geo-modal">
+  <div class="modal-geo">
+    <button type="button" class="modal-button__close" data-geo-close>
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">find us on the map</p>
+    <iframe
+      class="geo-frame"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.0428896942785!2d26.05281477658848!3d44.47329359900483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2032327b8c331%3A0x5f7dc92e3bd34d2d!2sGoIT%20Rom%C3%A2nia!5e0!3m2!1sen!2sro!4v1703880140649!5m2!1sen!2sro"
+      width="360"
+      height="360"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
+
+<!-- About modal -->
+
+<div class="backdrop-about is-hidden about-modal">
+  <div class="modal-about">
+    <button type="button" class="modal-button__close" data-about-close>
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">eco technologies</p>
+  <iframe class="modal-about__frame" width="360" height="400" src="https://www.youtube.com/embed/1soEope57jo?si=BGkHgcZfGx7VfHmx" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+    <p class="modal-about__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Malesuada pellentesque elit eget gravida. Nisl nunc mi ipsum faucibus.
+    </p>
+  </div>
+</div>
+
+<!-- Franchise modal -->
+
+<div class="backdrop-franchise is-hidden">
+  <div class="modal-franchise">
+    <button type="button" class="modal-button__close franchise-close">
+      <svg class="modal-close__icon" width="26" height="26">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal-title">Contact franchise manager</h3>
+    <form class="modal-form" action="#">
+      <p class="franchise-modal__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut
+        enim blandit. Aliquam etiam erat velit scelerisque in.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Malesuada pellentesque elit eget gravida. Nisl nunc mi ipsum faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      </p>
+
+      <div class="form-field">
+        <label class="form-input__text" for="Name">Name</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="text" name="Name" id="Name" />
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="./images/sprite-modals.svg#person-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="Mail">Mail</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="email" name="Почта" id="Mail" />
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="./images/sprite-modals.svg#email-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <button class="submit-button franchise" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- Order modal -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-button__close" data-modal-close>
+      <svg width="30" height="30">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <p class="modal-title">enter data for order</p>
+    <form class="modal-form" action="#">
+      <div class="form-field">
+        <label class="form-input__text" for="Name1">Name</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="text" name="Name" id="Name1" />
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="./images/sprite-modals.svg#person-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="phone">Phone</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="tel" name="phone" id="phone" />
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="./images/sprite-modals.svg#phone-modal"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-input__text" for="Mail1">Mail</label>
+        <div class="form-input__wrappy">
+          <input class="form-input" type="email" name="Почта" id="Mail1" />
+          <svg class="form-input__icon" width="18" height="18">
+            <use href="./images/sprite-modals.svg#email-modal"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="product-name">Product</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="./images/sprite-modals.svg#modal-option"></use>
+          </svg>
+          <select
+            class="form-field__select"
+            id="product-name"
+            name="product-name"
+          >
+            <option value="">Ice cream</option>
+            <option value="">Ice coffee</option>
+            <option value="" selected>Milkshake</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="size">Size</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="./images/sprite-modals.svg#modal-option"></use>
+          </svg>
+          <select class="form-field__select" id="size" name="size">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l" selected>L</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text" for="taste">Taste</label>
+        <div class="form-input__wrappy">
+          <svg class="form-input__icon" width="15" height="15">
+            <use href="./images/sprite-modals.svg#modal-option"></use>
+          </svg>
+          <select class="form-field__select" id="taste" name="taste">
+            <option value="xs">Choco Life</option>
+            <option value="s">Banana Dream</option>
+            <option value="m" selected>Limonchello</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text">
+          Quantity
+          <input
+            class="form-input__quantity"
+            type="number"
+            name="quantity"
+            min="0"
+            max="999"
+            step="1"
+            value="0"
+          />
+        </label>
+      </div>
+
+      <div class="form-field">
+        <label class="form-input__text">
+          Comment
+          <textarea
+            class="form-field__textarea"
+            name="feedback"
+            placeholder="Comment to the order"
+          ></textarea>
+        </label>
+
+        <div class="form-field__button">
+          <button class="button submit-button" type="submit">Buy now</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
